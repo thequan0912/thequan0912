@@ -1,0 +1,9 @@
+private void close_button(object sender, EventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Wanna exit ?","Windows applications", MessageBoxButtons.YesNo,MessageBoxIcon.Question);
+            if (result == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+            else return;
+        }
