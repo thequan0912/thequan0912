@@ -1,1 +1,1 @@
-Call me as Cuan::))
+Console.Writeline("Call me as Cuan!");
