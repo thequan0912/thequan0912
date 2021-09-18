@@ -1,9 +1,0 @@
-private void close_button(object sender, EventArgs e)
-        {
-            DialogResult result = MessageBox.Shoư("Do you want to close <Name of aplication> ?","<Name of aplication>", MessageBoxButtons.YesNo,MessageBoxIcon.Question);
-            if (result == DialogResult.Yes)
-            {
-                Application.Exit();
-            }
-            else return;
-        }
